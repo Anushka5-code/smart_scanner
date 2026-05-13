@@ -1,0 +1,61 @@
+{
+  "module_01": {
+    "description": "Backrest Mounting Block (Square) - BEV820-BM-01",
+    "shape": "square",
+    "views": {
+      "front": {
+        "blueprint": "module_01_front.png",
+        "overall_length_mm": 82.55,
+        "overall_width_mm": 49.28,
+        "tolerance_mm": 0.5,
+        "square_cutout": {
+          "width_mm": 31.75,
+          "height_mm": 28.575,
+          "tolerance_mm": 0.5
+        },
+        "holes": [
+          {"id": "H1", "type": "threaded", "diameter_mm": 3.81, "tolerance_mm": 0.3},
+          {"id": "H2", "type": "threaded", "diameter_mm": 3.81, "tolerance_mm": 0.3},
+          {"id": "H3", "type": "through_threaded", "diameter_mm": 7.95, "tolerance_mm": 0.3},
+          {"id": "H4", "type": "dowel_post", "diameter_mm": 9.525, "tolerance_mm": 0.1}
+        ]
+      },
+      "rear": {
+        "blueprint": "module_01_rear.png",
+        "overall_length_mm": 82.55,
+        "overall_width_mm": 49.28,
+        "tolerance_mm": 0.5,
+        "square_cutout": {
+          "width_mm": 31.75,
+          "height_mm": 28.575,
+          "tolerance_mm": 0.5
+        },
+        "holes": [
+          {"id": "H3_rear", "type": "through_bore", "diameter_mm": 7.95, "tolerance_mm": 0.3}
+        ]
+      }
+    }
+  },
+  "module_02": {
+    "description": "Circular Module",
+    "shape": "circular",
+    "views": {
+      "front": {
+        "blueprint": "module_02_front.png",
+        "overall_length_mm": 0,
+        "overall_width_mm": 0,
+        "tolerance_mm": 0.5,
+        "square_cutout": null,
+        "holes": []
+      },
+      "rear": {
+        "blueprint": "module_02_rear.png",
+        "overall_length_mm": 0,
+        "overall_width_mm": 0,
+        "tolerance_mm": 0.5,
+        "square_cutout": null,
+        "holes": []
+      }
+    }
+  }
+}
